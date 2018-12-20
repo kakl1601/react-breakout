@@ -1,0 +1,61 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label,
+select {
+  text-align: center;
+  font-family: 'Concert One', cursive;
+}
+
+canvas {
+  border: 5px solid black;
+  background-color: #eee;
+  margin: auto;
+  display: block;
+}
+
+button,
+select {
+  border-radius: 10px;
+  border: 3px solid #000;
+}
+
+button {
+  width: 120px;
+}
+
+button:hover {
+  background-color: orange;
+  color: white;
+  transition-duration: .2s;
+  cursor: pointer;
+}
+
+select {
+  width: 60px;
+}
+
+button h3 {
+  font-size: 1.5em;
+}
+
+label {
+  margin-bottom: 1em;
+  display: block;
+}
+
+#guide {
+  opacity: 0;
+}
+
+#game-over,
+#win {
+  opacity: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
